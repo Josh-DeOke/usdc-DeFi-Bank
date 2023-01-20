@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# DeFi Bank
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This smart-contract lets you deposit your usdc stable coins and generate passive income yield on them. The smart-contract also integrates with Aave Lending pool so that the deposited funds can be further lended through the Aave Lending Pool to generate yield. Contract is deployed on the **Goerli Testnet**.
 
-Try running some of the following tasks:
+**Tech Stack:**   
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Solidity, Hardhat, Ethers.js, Aave Interfaces, OpenZeppelin
+
+**Deployed Contract:**
+
+https://goerli.etherscan.io/address/0xD78eC6728d763Da3A533777F7A641bf10a68daA8
